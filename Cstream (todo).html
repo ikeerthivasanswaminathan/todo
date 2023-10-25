@@ -1,0 +1,85 @@
+<!-- !DOCTYPE html> -->
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>"BIO DATA"</h2>
+    <div class="todo">
+        <div class="div1" style="display: flex;align-items:center ;">
+            <label for="inputtext1">NAME : </label>
+            <textarea class="todoinput" type="text" id="inputtext1" name="textspace" placeholder="Enter your name..."
+                rows="3" cols="50" autocomplete="on" minlength="5" maxlength="100"
+                aria-label="Enter your Description"></textarea>
+        </div>
+        <br />
+        <div class="div2" style="display: flex;align-items:center ;">
+            <label for="inputtext">EMAIL : </label>
+            <textarea class="todoinput" type="text" id="inputtext2" name="textspace" placeholder="Enter your email..."
+                rows="3" cols="50" autocomplete="on" minlength="5" maxlength="100"
+                aria-label="Enter your Description"></textarea>
+        </div>
+        <br />
+        <div class="div1" style="display: flex;align-items:center ;">
+            <label for="inputtext1">MOBILE : </label>
+            <textarea class="todoinput" type="text" id="inputtext3" name="textspace" placeholder="Enter your mobile number..."
+                rows="3" cols="50" autocomplete="on" minlength="5" maxlength="100"
+                aria-label="Enter your Description"></textarea>
+        </div>
+        <br />
+        <div class="div1" style="display: flex;align-items:center ;">
+            <label for="inputtext1">FATHER'S NAME : </label>
+            <textarea class="todoinput" type="text" id="inputtext4" name="textspace" placeholder="Enter your Father's name..."
+                rows="3" cols="50" autocomplete="on" minlength="5" maxlength="500"
+                aria-label="Enter your Description"></textarea>
+        </div>
+        <br />
+        <div class="div1" style="display: flex;align-items:center ;">
+            <label for="inputtext1">MOTHER'S NAME : </label>
+            <textarea class="todoinput" type="text" id="inputtext5" name="textspace" placeholder="Enter your Mother's name..."
+                rows="3" cols="50" autocomplete="on" minlength="5" maxlength="500"
+                aria-label="Enter your Description"></textarea>
+        </div>
+        <br />
+        <div class="div1" style="display: flex;align-items:center ;">
+            <label for="inputtext1">ADDRESS : </label>
+            <textarea class="todoinput" type="text" id="inputtext6" name="textspace" placeholder="Enter your address..."
+                rows="3" cols="50" autocomplete="on" minlength="5" maxlength="500"
+                aria-label="Enter your Description"></textarea>
+        </div>
+    <br />
+    <div style="width: 300px;display:flex;justify-content: flex-end;">
+        <button id="myButton" type="Submit" aria-label="Example Submit Button">Submit</button>
+    </div>
+</body>
+
+</html>
+
+
+<br />
+<style>
+    button {
+        background-color: hsl(253, 70%, 25%);
+        color: #ffffff;
+        padding: 05px 25px;
+        border: none;
+        border-radius: 7.5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: hsl(253, 70%, 25%);
+    }
+
+    .todo {
+        display: flex;
+        flex-direction: column;
+    }
+.todoinput {
+    margin-left: 10px;
+    }
+</style>
